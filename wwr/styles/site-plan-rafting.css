@@ -1,5 +1,5 @@
-@import url(https://fonts.google.com/specimen/Rubik+Burned);
-@import url(https://fonts.google.com/specimen/Fira+Sans?query=fira);
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.google.com/specimen/Fira+Sans?query=fira');
 
 :root {
     --primary-color: #4D7EA8;
@@ -7,8 +7,8 @@
     --accent1-color: #B6C2D9;
     --accent2-color: #828489;
 
-    --heading-font: 'Rubik Burned', serif;
-    --paragraph-font: 'Fira Sans', serif;
+    --heading-font: "Rubik Burned", system-ui;
+    --paragraph-font: "Fira Sans", serif;
 
     --nav-background-color: #000000;
     --nav-link-color: #4D7EA8;
