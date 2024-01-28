@@ -28,7 +28,7 @@ header {
     background-color: var(--accent1-color);
 }
 p{
-    padding: 25px;
+    padding: 5px;
 }
 nav {
     background-color: var(--nav-background-color);
@@ -48,8 +48,54 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+.hero {
+	/*margin: 10px auto;*/
+	position: relative; /* If removed, what happens? */
+}
 .hero img {
-    display: block;
     width: 100%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.herodiv1 {
+    position: relative;
+    text-align: center;
+	top: 25px;
+    /*width: 100%;*/
+	background: white;
+    margin: 0px;
+	/*border: 1px solid #000;/*
+	/*padding: 0.65rem;
+	box-shadow: 0 0 30px #111;*/
+	opacity: 0.9;
+}
+.herodiv2 {
+    position: relative;
+	/*top: 35px;*/
+    margin: 50px;
+    
+    /*left: 15px;
+	right: 15px;*/
+	background: radial-gradient(#eee, #4567aa);
+	/*border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;*/
+	opacity: 0.8;
+}
+
+.section {
+    position: relative;
+    top: 20px
+}
+
+footer {
+    position: relative;
+    top: 20px;
+}
+
+.p img {
+    height: 10px;
+    position: relative;
 }
