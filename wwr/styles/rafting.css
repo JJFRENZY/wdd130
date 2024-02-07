@@ -103,8 +103,12 @@ footer {
     position: relative;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 5px;
+    padding: 5px;
+}
+.right_float {
+    display: flex;
+    float: right;
 }
