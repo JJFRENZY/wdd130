@@ -108,10 +108,9 @@ nav {
     top: 20px
 }
 
-footer {
+footer, {
     position: relative;
     top: 20px;
-    padding: 5px;
 }
 
 .p img {
@@ -127,4 +126,7 @@ footer {
 .right_float {
     display: flex;
     float: right;
+}
+img {
+    padding: 5px;
 }
