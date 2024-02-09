@@ -41,6 +41,7 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display:flex;
+    
 }
 .navigation {
 	display: flex;
@@ -110,6 +111,7 @@ nav {
 footer {
     position: relative;
     top: 20px;
+    padding: 5px;
 }
 
 .p img {
