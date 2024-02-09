@@ -26,31 +26,45 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
-
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 400px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
 p{
     padding: 5px;
 }
 nav {
-    text-align: right;
+
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display:flex;
 }
-nav a {
+.navigation {
+	display: flex;
+	list-style: none;
+    text-align: right;
+}
+.navigation li {
+    flex: 1 1 100%;
+}
+.navigation a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
     text-align: right;
 }
-nav a:link, nav a:visited {
+.navigation a:link, .navigation a:visited {
     color: var(--nav-link-color);
 }
-nav a:hover {
+.navigation a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
 .hero {
 	/*margin: 10px auto;*/
 	position: relative; /* If removed, what happens? */
