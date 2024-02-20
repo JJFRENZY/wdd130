@@ -130,3 +130,7 @@ footer, {
 img {
     padding: 5px;
 }
+.photo_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
