@@ -119,9 +119,10 @@ footer, {
 }
 
 .row {
-    display: flex;
-    list-style: none;
-    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
 }
 .right_float {
     display: flex;
@@ -134,3 +135,9 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+.about_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+  }
