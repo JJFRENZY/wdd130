@@ -69,6 +69,8 @@ nav {
 .hero {
 	/*margin: 10px auto;*/
 	position: relative; /* If removed, what happens? */
+    flex-wrap: wrap;
+    font-family: var(--paragraph-font);
 }
 .hero img {
     width: 100%;
@@ -81,13 +83,16 @@ nav {
     position: relative;
     text-align: center;
 	top: 25px;
+    flex-wrap: wrap;
     /*width: 100%;*/
 	background: white;
-    margin: 0px;
+    margin: 5px;
 	/*border: 1px solid #000;/*
 	/*padding: 0.65rem;
 	box-shadow: 0 0 30px #111;*/
-	opacity: 0.9;
+	opacity: 1;
+    
+    
 }
 .herodiv2 {
     position: relative;
@@ -134,6 +139,9 @@ img {
 .photo_container {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    
 }
 .about_container {
     display: grid;
