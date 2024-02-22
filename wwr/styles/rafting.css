@@ -149,3 +149,9 @@ img {
     grid-template-rows: repeat(1, 1fr);
     gap: 10px;
   }
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
